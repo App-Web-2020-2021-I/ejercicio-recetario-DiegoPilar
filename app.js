@@ -40,7 +40,7 @@ function agregarprincipal(datos){
                             </div>
                             <div class="card-text text-white text-center col-12">
                                 <button id="btn-recetario" class="btn btn-success" type="button" 
-                                style=" padding-left: -10px;" onclick="agregaringredientes(datos)"> Ver mas
+                                style=" padding-left: -10px;" data-toggle="modal" data-target="#modalLogin""> Ver mas
                                 </button>
                                 
                             </div>
@@ -67,7 +67,7 @@ function agregarprincipal(datos){
                                 <h5> ${datos.nombre}</h5>
                             </div>
                             <div class="card-text text-white text-center col-12">
-                                <button class="btn btn-danger" type="button" data-toggle="modal" data-target="#modalentrada")"> Ver mas
+                                <button class="btn btn-danger" type="button" data-toggle="modal" data-target="#modalLogin""> Ver mas
                                 </button>
                                 
                             </div>
@@ -99,7 +99,7 @@ function agregarprincipal(datos){
                             </div>
                             <div class="card-text text-white text-center col-12">
                                 <button id="btn-recetario" class="btn btn-success" type="button" 
-                                style=" padding-left: -10px;" onclick="agregaringredientes(datos)"> Ver mas
+                                style=" padding-left: -10px;" data-toggle="modal" data-target="#modalLogin"> Ver mas
                                 </button>
                                 
                             </div>
